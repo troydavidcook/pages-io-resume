@@ -1,16 +1,16 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# donutfinder.io
-- project: donutfinder.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.
+# Wine Ought
+- project: Wine Ought?
+  role: Developer
+  duration: 2017
+  url: "https://shielded-escarpment-89075.herokuapp.com/"
+  description: A web application to bring grape connoisseurs together to post and share their favorite wines and post and view other's comments.
 
-#Springfield Donut Eater's User Group
-- project: Springfield Donut Eater's User Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.
+# The Proposal
+- project: Kevin & Dallyn | An Engagement
+  role: Developer and Photographer
+  duration: 2017 &mdash; Present
+  url: "k-d-proposal.herokuapp.com"
+  description: This is an online application where friends and family that weren't at the event can visit to view the propsal online to see how it happened and post and view other's comments.
