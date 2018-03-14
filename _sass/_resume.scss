@@ -9,8 +9,8 @@
 
   h2 {
     @include sans;
-    font-weight: 900;
-    font-size: 1.75rem;
+    font-weight: 800;
+    font-size: 1.5rem;
     letter-spacing: -.05rem;
     margin: 0;
   }
@@ -21,7 +21,7 @@
 .page-header { padding: 1.5rem 0;
 
   .avatar {
-    width: 95px;
+    width: 110px;
     max-width: 100%;
     overflow: hidden;
     @include border-radius(100px);
@@ -32,7 +32,7 @@
   .header-name {
     @include sans;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 5.20;
     text-align: center;
     letter-spacing: -.15rem;
     line-height: 1;
@@ -54,7 +54,7 @@
 
     .header-title {
       @include sans;
-      font-weight: 300;
+      font-weight: 100;
       font-size: 1.75rem;
       line-height: 2rem;
       letter-spacing: -.05rem;
