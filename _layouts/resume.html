@@ -21,7 +21,7 @@
 
         <!-- Contact buttons don't work in print, configure in the _config.yml file, remove "print-only" to display always. -->
         <div class="header-contact-info print-only">
-          <p>{{ site.resume_header_contact_info }}</p>
+          <p "style=font-size:10px;">{{ site.resume_header_contact_info }}</p>
         </div>
 
         <div class="title-bar no-print">
@@ -37,8 +37,15 @@
           {{ site.resume_header_intro }}
         </div>
 
+        
         {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
+        <ul>
+          <li>{{ site.resume_contact_email }}</li>
+          <li>{{ site.resume_contact_telephone }}</li>
+          <li>{{ site.resume_contact_address }}</li>
+        </ul>
+        <!-- <p>{{ site.resume_contact_email }}</p> -->
+        <!-- <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a> -->
         {% elsif site.resume_looking_for_work == 'no' %}
         <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
         {% else %}
